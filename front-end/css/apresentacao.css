@@ -1,0 +1,27 @@
+.apresentacao-div-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao-titulo{
+    font-size: var(--fonte-size-l);
+    font-family: var(--fonte-titulos);  
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--padding-2xs);
+}
+.apresentacao-div-conteudo {
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+}
+
+.apresentacao-conteudo {
+    font-size: var(--fonte-size-m);
+    font-family: var(--fonte-titulos);
+    margin: 1rem;
+    max-width: 800px;          
+    text-align: center;        
+}
