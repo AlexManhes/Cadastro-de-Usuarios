@@ -1,0 +1,10 @@
+.rodape_div{
+    align-items: center;
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+}
+.rodape-div-img{
+    width: 150px;
+    border-radius: 100%;
+}
