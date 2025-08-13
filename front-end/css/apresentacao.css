@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 .apresentacao-titulo{
     font-size: var(--fonte-size-l);
@@ -15,7 +16,8 @@
 .apresentacao-div-conteudo {
     display: flex;
     align-items: center;       
-    justify-content: center;   
+    justify-content: center;  
+    margin-bottom: 2rem; 
 }
 
 .apresentacao-conteudo {

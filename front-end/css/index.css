@@ -2,6 +2,7 @@
 @import url(./cabecalho.css);
 @import url(./apresentacao.css);
 @import url(./rodape.css);
+@import url(./formulario.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
@@ -24,6 +25,7 @@
   --cor-texto-branco: #ffffff;
   --cor-titulo: #284260;
   --cor-fundo:#0b2e43;
+  --cor-divisoria:#103e5a;
   
 
   --padding-2xs: 0.5rem;
@@ -40,4 +42,14 @@
   --gap-l: 2rem;
   --gap-xl: 3rem;
   --gap-2xl: 4rem;
+}
+.divisoria_div{
+  background-color:var( --cor-divisoria);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-2xs);
+}
+.divisoria-img{
+  width: 150px;
 }
