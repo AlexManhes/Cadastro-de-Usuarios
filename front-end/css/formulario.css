@@ -9,7 +9,7 @@
     justify-content: center;
     max-width: 37.5rem; /* 600px */
     background: #fff;
-    padding: 2rem;
+    padding: var(--padding-l);
     margin: 3.125rem auto; /* 50px */
     border-radius: 0.75rem; /* 12px */
     box-shadow: 0 0.25rem 0.625rem rgba(0,0,0,0.1); /* 4px 10px */
@@ -24,17 +24,16 @@
 }
 
 .texto-formulario {
-    font-family: var(--fonte-corpo);
     font-weight: bold;
     margin-bottom: 0.3rem;
 }
 
 input, select, textarea {
-    padding: 0.6rem;
-    border: 0.0625rem solid #ccc; /* 1px */
-    border-radius: 0.5rem; /* 8px */
+    padding: var(--padding-2xs);
+    border: 0.0625rem solid #ccc; 
+    border-radius: 0.5rem;
     font-family: var(--fonte-corpo);
-    font-size: 1rem;
+    font-size: var(--fonte-size-b);
     width: 100%;
     box-sizing: border-box;
     transition: all 0.2s ease-in-out;
@@ -52,7 +51,7 @@ input[type="submit"] {
     font-weight: bold;
     cursor: pointer;
     border: none;
-    padding: 0.7rem;
+    padding: var(--padding-2xs);
     transition: background 0.3s ease;
 }
 

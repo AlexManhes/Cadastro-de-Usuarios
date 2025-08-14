@@ -22,7 +22,6 @@
 
 .apresentacao-conteudo {
     font-size: var(--fonte-size-m);
-    font-family: var(--fonte-titulos);
     margin: 1rem;
     max-width: 800px;          
     text-align: center;        

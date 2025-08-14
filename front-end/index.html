@@ -15,7 +15,7 @@
                     </a>
                 </li>
                 <li class="cabecalho-list">
-                    <a href="#home">home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li class="cabecalho-list">
                     <a href="#cadastro">Cadastro</a>
@@ -101,7 +101,7 @@
 
                     <div class="formulario-div">
                         <label for="cep" class="texto-formulario">CEP:</label>
-                        <input type="number" id="cep" name="cep" placeholder="CEP" class="formulario-input-cep">
+                        <input type="text" id="cep" name="cep" placeholder="CEP" class="formulario-input-cep">
                     </div>
 
                     <div class="formulario-div">
@@ -146,14 +146,25 @@
             <img src="./imgs/logo_divisoria.png" alt="Logo da empresa" class="divisoria-img">
         </div>
         <section class="bucar-caso-section" id="buscaCaso">
-            <div>
-                <form>
-                    <div class="formulario-div">
-                        <label for="cpf" class="texto-formulario">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="CPF">
+            <div class="formulario-buscar-div">
+                <div class="formulario-bucar-div-titulo">
+                    <h1 class="formulario-buscar-titulo">Buscar Cadastro</h1>
+                </div>
+                <div class="formulario-bucar-div-forms">
+                    <form class="formulario">
+                        <div class="formulario-buscar-forms-div">
+                            <label for="cpf" class="formalario-buscar-texto">CPF:</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="CPF" maxlength="11" class="formulario-buscar-cpf-input">
+                        </div>
+                        <div class="formulario-buscar-forms-div formulario-buscar-forms-div-submit">
+                            <input type="submit" value="Buscar">
+                        </div>
+                    </form>
+                    <br>
+                    <div>
+                        <label for="Resultado da pesquisa" class="resultadoDaPesquisa"></label>
                     </div>
-                    </div>
-                </form>
+                </div>
             </div>
         </section>
     </main>

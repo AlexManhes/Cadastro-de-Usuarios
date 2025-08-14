@@ -1,0 +1,64 @@
+.formulario-buscar-div{
+    margin-top: 2rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario-bucar-div-titulo{
+    text-align: center;
+}
+.formulario-buscar-titulo{
+    font-family: var(--fonte-titulos);
+    font-size: var(--fonte-size-l);
+}
+.formulario-buscar-forms-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    margin: 1rem;
+    gap: 1rem;
+
+}
+.formalario-buscar-texto{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario-buscar-forms-div-submit{
+  margin-bottom: 2rem;
+}
+input, select, textarea {
+    padding: var(--padding-2xs);
+    border: 0.0625rem solid #ccc; 
+    border-radius: 1rem;
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-b);
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0.25rem rgba(0,123,255,0.4); /* 4px */
+}
+input[type="submit"] {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: var(--padding-2xs);
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}

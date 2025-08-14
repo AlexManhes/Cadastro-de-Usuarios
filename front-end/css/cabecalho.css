@@ -2,22 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: var(--gap-m);
-    flex-grow: 1;
     background-color: var(--cor-fundo);
 }
 .cabecalho-list{
     list-style: none;
     font-style: none;
+    margin-right: 1rem;
     font-size: var(--fonte-size-m);
-    font-family: var(--fonte-titulos);
-    padding-right: var(--padding-xs);
+    padding-right: var(--padding-2xs);
     list-style-type: none;
 }
 .cabecalho-list a{
     color:  var(--cor-texto-branco);
     text-decoration: none;
-}
+}   
 .cabecalho-img{
     border-radius: 100%;
     width: 29%;
